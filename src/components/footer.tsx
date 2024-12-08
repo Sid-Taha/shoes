@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import Link from "next/link"
 function Footer() {
   return (
-    <footer className="bg-[#111111] text-white w-full mt-[500px]">
+    <footer className="bg-[#111111] text-white w-full mt-[56px]">
       <div className="max-w-[1440px] mx-auto px-8 ">
         {/* Top section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-10 ">
