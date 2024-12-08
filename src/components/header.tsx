@@ -21,11 +21,11 @@ function Header() {
           <nav className="hidden md:flex items-center gap-4">
             <Link href="#" className="hover:text-gray-600">Find a Store</Link>
             <span className="text-gray-300">|</span>
-            <Link href="#" className="hover:text-gray-600">Help</Link>
+            <Link href="/contact-us" className="hover:text-gray-600">Help</Link>
             <span className="text-gray-300">|</span>
-            <Link href="#" className="hover:text-gray-600">Join Us</Link>
+            <Link href="/join-us" className="hover:text-gray-600">Join Us</Link>
             <span className="text-gray-300">|</span>
-            <Link href="#" className="hover:text-gray-600">Sign In</Link>
+            <Link href="/login" className="hover:text-gray-600">Sign In</Link>
           </nav>
         </div>
       </div>
@@ -34,7 +34,7 @@ function Header() {
       <div className="h-16 bg-white border-b">
         <div className="max-w-[1440px] mx-auto h-full flex items-center justify-between px-6">
           {/* Logo */}
-          <Link href="#" className="flex-shrink-0">
+          <Link href="/" className="flex-shrink-0">
             <Image src={"/nikeLogo.png"} alt={"Logo"} width={59} height={21}></Image>
           </Link>
 
@@ -84,7 +84,7 @@ function Header() {
               <Heart className="w-6 h-6" />
             </Button>
             <Button variant="ghost" size="icon">
-              <ShoppingBag className="w-6 h-6" />
+              <Link href={"/cart"}><ShoppingBag className="w-6 h-6" /></Link>
             </Button>
           </div>
         </div>

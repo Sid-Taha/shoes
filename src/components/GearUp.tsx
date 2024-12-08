@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
+import Link from "next/link"
 
 export default function GearUp() {
 
@@ -23,6 +24,7 @@ export default function GearUp() {
           </div>
           
           <div className="grid sm:grid-cols-2 gap-4">
+            <Link href={"/products"}>
             <Card className="border-0 shadow-none">
               <CardContent className="p-0">
                 <div className="aspect-[3/4] bg-gray-100 relative">
@@ -42,7 +44,9 @@ export default function GearUp() {
                 </div>
               </CardContent>
             </Card>
+            </Link>
 
+            <Link href={"/products"}>
             <Card className="border-0 shadow-none">
               <CardContent className="p-0">
                 <div className="aspect-[3/4] bg-gray-100 relative">
@@ -63,6 +67,7 @@ export default function GearUp() {
                 </div>
               </CardContent>
             </Card>
+            </Link>
           </div>
         </div>
 
@@ -79,6 +84,7 @@ export default function GearUp() {
           </div>
           
           <div className="grid sm:grid-cols-2 gap-4">
+            <Link href={"/products"}>
             <Card className="border-0 shadow-none">
               <CardContent className="p-0">
                 <div className="aspect-[3/4] bg-gray-100 relative">
@@ -99,7 +105,9 @@ export default function GearUp() {
                 </div>
               </CardContent>
             </Card>
+            </Link>
 
+            <Link href={"/products"}>
             <Card className="border-0 shadow-none">
               <CardContent className="p-0">
                 <div className="aspect-[3/4] bg-gray-100 relative">
@@ -120,6 +128,7 @@ export default function GearUp() {
                 </div>
               </CardContent>
             </Card>
+            </Link>
           </div>
         </div>
       </div>

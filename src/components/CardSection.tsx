@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/carousel"
 import { products } from "@/constant/productCard";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Link from "next/link";
 
 export default function ProductShowcase() {
   return (
@@ -29,6 +30,7 @@ export default function ProductShowcase() {
 
       </div>
 
+      <Link href={"/products"}>
       <Carousel
         opts={{
           align: "start",
@@ -60,6 +62,7 @@ export default function ProductShowcase() {
         </CarouselContent>
 
       </Carousel>
+      </Link>
     </div>
   )
 }

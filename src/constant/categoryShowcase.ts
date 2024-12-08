@@ -3,16 +3,16 @@
     {
       name: "Men's",
       image: "/home/card10.png",
-      href: "/mens",
+      href: "/products",
     },
     {
       name: "Women's",
       image: "/home/card11.png",
-      href: "/womens",
+      href: "/products",
     },
     {
       name: "Kids'",
       image: "/home/card12.png",
-      href: "/kids",
+      href: "/products",
     },
   ]
