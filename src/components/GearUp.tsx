@@ -14,7 +14,7 @@ export default function GearUp() {
         {/* Men's Section */}
         <div className="space-y-6">
           <div className="flex items-center justify-end gap-2">
-            <span className="text-sm font-medium">Shop Men's</span>
+            <span className="text-sm font-medium">Shop Men&apos;s</span>
             <Button variant="ghost" size="icon" className="rounded-full bg-gray-100">
               <ChevronLeft className="h-4 w-4" />
             </Button>
@@ -40,7 +40,7 @@ export default function GearUp() {
                     <h3 className="font-medium text-sm">Nike Dri-FIT ADV TechKnit Ultra</h3>
                     <span className="text-sm font-medium">₹ 3,895</span>
                   </div>
-                  <p className="text-gray-500 text-sm">Men's Short-Sleeve Running Top</p>
+                  <p className="text-gray-500 text-sm">Men&apos;s Short-Sleeve Running Top</p>
                 </div>
               </CardContent>
             </Card>
@@ -63,7 +63,7 @@ export default function GearUp() {
                     <h3 className="font-medium text-sm">Nike Dri-FIT Challenger</h3>
                     <span className="text-sm font-medium">₹ 2,495</span>
                   </div>
-                  <p className="text-gray-500 text-sm">Men's 18cm (approx.) 2-in-1 Versatile Shorts</p>
+                  <p className="text-gray-500 text-sm">Men&apos;s 18cm (approx.) 2-in-1 Versatile Shorts</p>
                 </div>
               </CardContent>
             </Card>
@@ -71,10 +71,10 @@ export default function GearUp() {
           </div>
         </div>
 
-        {/* Women's Section */}
+        {/* Women&apos;s Section */}
         <div className="space-y-6">
           <div className="flex items-center justify-end gap-2">
-            <span className="text-sm font-medium">Shop Women's</span>
+            <span className="text-sm font-medium">Shop Women&apos;s</span>
             <Button variant="ghost" size="icon" className="rounded-full bg-gray-100">
               <ChevronLeft className="h-4 w-4" />
             </Button>
@@ -101,7 +101,7 @@ export default function GearUp() {
                     <h3 className="font-medium text-sm">Nike Dri-FIT ADV Run Division</h3>
                     <span className="text-sm font-medium">₹ 5,295</span>
                   </div>
-                  <p className="text-gray-500 text-sm">Women's Long-Sleeve Running Top</p>
+                  <p className="text-gray-500 text-sm">Women&apos;s Long-Sleeve Running Top</p>
                 </div>
               </CardContent>
             </Card>
@@ -124,7 +124,7 @@ export default function GearUp() {
                     <h3 className="font-medium text-sm">Nike Fast</h3>
                     <span className="text-sm font-medium">₹ 3,795</span>
                   </div>
-                  <p className="text-gray-500 text-sm">Women's Mid-Rise 7/8 Running Leggings with Pockets</p>
+                  <p className="text-gray-500 text-sm">Women&apos;s Mid-Rise 7/8 Running Leggings with Pockets</p>
                 </div>
               </CardContent>
             </Card>

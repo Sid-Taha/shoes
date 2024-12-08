@@ -41,7 +41,7 @@ export default function ShoppingCart() {
                     <div className="flex justify-between">
                       <div>
                         <h3 className="font-medium">Nike Dri-FIT ADV TechKnit Ultra</h3>
-                        <p className="text-sm text-gray-600">Men's Short-Sleeve Running Top</p>
+                        <p className="text-sm text-gray-600">Men&apos;s Short-Sleeve Running Top</p>
                         <p className="text-sm text-gray-600">Ashen Slate/Cobalt Bliss</p>
                         <div className="mt-2 space-y-1">
                           <p className="text-sm">Size: L</p>
@@ -79,7 +79,7 @@ export default function ShoppingCart() {
                     <div className="flex justify-between">
                       <div>
                         <h3 className="font-medium">Nike Air Max 97 SE</h3>
-                        <p className="text-sm text-gray-600">Men's Shoes</p>
+                        <p className="text-sm text-gray-600">Men&apos;s Shoes</p>
                         <p className="text-sm text-gray-600">Flat Pewter/Light Bone/Black/White</p>
                         <div className="mt-2 space-y-1">
                           <p className="text-sm">Size: 8</p>
@@ -135,7 +135,7 @@ export default function ShoppingCart() {
                   </div>
                   <div className="p-4">
                     <h3 className="font-medium">Air Jordan 1 Mid SE Craft</h3>
-                    <p className="text-sm text-gray-600">Men's Shoes</p>
+                    <p className="text-sm text-gray-600">Men&apos;s Shoes</p>
                     <p className="text-sm font-medium mt-2">MRP: ₹ 12,295.00</p>
                   </div>
                 </CardContent>

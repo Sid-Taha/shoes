@@ -22,7 +22,7 @@ export default function CheckoutForm() {
           <div className="space-y-4">
             <h2 className="text-xl font-medium">How would you like to get your order?</h2>
             <p className="text-sm text-gray-500">
-              Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the
+              Customs regulation for India require a copy of the recipient&apos;s KYC. The address on the KYC needs to match the
               shipping address.
             </p>
             <Button variant="outline" className="w-full justify-start gap-4 rounded-xl border-2 py-6">
@@ -81,7 +81,7 @@ export default function CheckoutForm() {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-xl font-medium">What's your contact information?</h2>
+            <h2 className="text-xl font-medium">What&apos;s your contact information?</h2>
             <div className="grid gap-4">
               <div className="grid gap-2">
                 <Input className="rounded-md py-6" placeholder="Email" type="email" />
@@ -95,7 +95,7 @@ export default function CheckoutForm() {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-xl font-medium">What's your PAN?</h2>
+            <h2 className="text-xl font-medium">What&apos;s your PAN?</h2>
             <div className="grid gap-4">
               <div className="grid gap-2">
                 <Input className="rounded-md py-6" placeholder="PAN" />
@@ -158,7 +158,7 @@ export default function CheckoutForm() {
                   height={208}
                 />
                 <div className="w-full space-y-1">
-                  <p className="text-sm">Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</p>
+                  <p className="text-sm">Nike Dri-FIT ADV TechKnit Ultra Men&apos;s Short-Sleeve Running Top</p>
                   <p className="text-sm text-gray-500">Qty 1</p>
                   <p className="text-sm text-gray-500">Size L</p>
                   <p className="text-sm text-gray-500">₹ 3,895.00</p>
@@ -172,7 +172,7 @@ export default function CheckoutForm() {
                   height={208}
                 />
                 <div className="space-y-1">
-                  <p className="text-sm">Nike Air Max 97 SE Men's Shoes</p>
+                  <p className="text-sm">Nike Air Max 97 SE Men&apos;s Shoes</p>
                   <p className="text-sm text-gray-500">Qty 1</p>
                   <p className="text-sm text-gray-500">Size UK 8</p>
                   <p className="text-sm text-gray-500">₹ 16,995.00</p>

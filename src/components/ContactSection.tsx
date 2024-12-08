@@ -27,7 +27,7 @@ export default function ContactSection() {
         <div className="flex justify-center mb-4">
           <Mail className="h-12 w-12" />
         </div>
-        <p className="font-medium">We'll reply within</p>
+        <p className="font-medium">We will reply within</p>
         <p className="text-sm">five business days</p>
       </div>
 

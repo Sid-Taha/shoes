@@ -2,12 +2,11 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel"
 import { products } from "@/constant/productCard";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Link from "next/link";
+import Image from 'next/image'
 
 export default function ProductShowcase() {
   return (
@@ -43,9 +42,10 @@ export default function ProductShowcase() {
             <CarouselItem key={product.id} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
               <div className="group relative flex flex-col">
                 <div className="aspect-square overflow-hidden rounded-lg bg-gray-100">
-                  <img
+                  <Image
                     src={product.image}
                     alt={product.name}
+                    fill
                     className="h-full w-full object-cover object-center"
                   />
                 </div>

@@ -5,7 +5,7 @@ export default function FlightEssentials() {
   return (
     <section className="relative w-full max-w-[1344px] mx-auto px-4  md:px-12 lg:px-0 mb-[84px]">
       <h2 className="text-xl md:text-2xl font-medium text-[#111111] font-helvetica mb-8">
-        Don't Miss
+        Do not Miss
       </h2>
       <div className="relative w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 mb-12">
