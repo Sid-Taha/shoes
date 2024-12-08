@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Card } from "@/components/ui/card"
+import Link from "next/link"
 
 
 export default function ProductsCards() {
@@ -8,6 +9,7 @@ export default function ProductsCards() {
       {[...Array(91)].map((item, index) => {
         return (
           <Card className="relative w-full max-w-[348px] overflow-hidden border-none shadow-none hover:scale-[1.02]" key={index}>
+            <Link href={`/products/${index + 1}`}>
             <div className="relative h-[348px] w-full bg-[#F5F5F5]">
               <Image
                 src={`/products/card${index + 1}.png`}
@@ -17,6 +19,7 @@ export default function ProductsCards() {
                 priority
               />
             </div>
+            </Link>
             <div className="p-4 space-y-2">
               {true && (
                 <span className="text-[#9E3500] text-[15px] font-medium font-['Helvetica_Neue']">
